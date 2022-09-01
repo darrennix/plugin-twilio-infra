@@ -8,6 +8,8 @@ const { addInfra } = require('../../infra');
 
 class InfraNew extends TwilioClientCommand {
   async run() {
+    Printer.printHeader('This is me');
+
     await super.run();
     await runPulumiCommand(['new', 'javascript'], true);
     try {

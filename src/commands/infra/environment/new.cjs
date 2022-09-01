@@ -7,6 +7,8 @@ const { getPulumiStack, Printer, runPulumiCommand } = require('../../../utils');
 
 class InfraEnvironmentNew extends TwilioClientCommand {
   async run() {
+      Printer.printHeader('One level deeper');
+
     await super.run();
     try {
       let { args } = this.parse(InfraEnvironmentNew);
