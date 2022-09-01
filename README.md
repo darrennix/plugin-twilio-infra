@@ -1,3 +1,5 @@
+twilio plugins:remove plugin-twilio-infra && twilio plugins:install darrennix/plugin-twilio-infra
+
 <h1 align="center">plugin-twilio-infra</h1>
 <p align="center">Plugin for the <a href="https://github.com/twilio/twilio-cli">Twilio CLI</a> to integrate Pulumi and Twilio in order to create, deploy, and manage Twilio infrastructure using code.</p>
 <p align="center">

@@ -15,7 +15,7 @@
   ],
   "bugs": "https://github.com/twilio-infra-as-code/plugin-twilio-infra/issues",
   "dependencies": {
-    "oclif": ">=1.2.5"
+    "oclif": ">=1.2.5",
     "@twilio/cli-core": ">=4.3.3",
     "chalk": ">=4.1.0",
     "dotenv": ">=10.0.0",
