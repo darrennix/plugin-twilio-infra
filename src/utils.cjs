@@ -15,7 +15,7 @@ function getPulumiStack() {
  * Add environment variable to process.env
  *
  * @param {{}} twilioClient Initialized Twilio Client
- * @param {*?} shouldGetEnvsFromFile Whether to search and load env file for the current stack  
+ * @param {*?} shouldGetEnvsFromFile Whether to search and load env file for the current stack
  * @return {{}} Environment key-value pairs
  */
 function getEnvironmentVariables(twilioClient, shouldGetEnvFromFile) {
@@ -43,7 +43,7 @@ function getEnvironmentVariables(twilioClient, shouldGetEnvFromFile) {
       }
     }
   }
-  
+
   if (twilioClient) {
     envVars.TWILIO_ACCOUNT_SID = twilioClient.accountSid;
     envVars.TWILIO_USERNAME = twilioClient.username;
@@ -65,7 +65,7 @@ function getEnvironmentVariables(twilioClient, shouldGetEnvFromFile) {
 function runPulumiCommand(args, interactive = true, twilioClient) {
   try {
 
-    const shouldGetEnvFromFile = 
+    const shouldGetEnvFromFile =
       !(args[0] === "stack" && args[1] === "ls") &&
       (args[0] !== "new");
 

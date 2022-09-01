@@ -1,8 +1,8 @@
 {
   "name": "plugin-twilio-infra",
   "description": "Develop and deploy your Twilio infrastructure using code",
-  "version": "0.4.1",
-  "author": "Kaique Lupo Leite <klupo@twilio.com>",
+  "version": "0.4.2",
+  "author": "Darren Nix <darren@steadily.com>",
   "contributors": [
     {
       "name": "Giuseppe Verni",
