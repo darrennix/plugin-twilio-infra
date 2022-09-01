@@ -15,8 +15,7 @@
   ],
   "bugs": "https://github.com/twilio-infra-as-code/plugin-twilio-infra/issues",
   "dependencies": {
-    "@oclif/command": ">=1.5.19",
-    "@oclif/config": ">=1.13.3",
+    "oclif": ">=1.2.5"
     "@twilio/cli-core": ">=4.3.3",
     "chalk": ">=4.1.0",
     "dotenv": ">=10.0.0",
@@ -25,17 +24,15 @@
     "shelljs": ">=0.8.4"
   },
   "devDependencies": {
-    "@oclif/dev-cli": ">=1.22.2",
-    "@oclif/plugin-help": ">=2.2.1",
-    "@oclif/test": ">=1.2.5",
     "@twilio/cli-test": ">=2.0.2",
     "all-contributors-cli": ">=6.7.0",
     "chai": ">=4.2.0",
     "eslint": ">=4.19.1",
     "eslint-config-oclif": ">=1.5.1",
-    "globby": ">=8.0.2",
+    "globby": "^13.1.2",
     "mocha": ">=5.2.0",
-    "nyc": ">=13.3.0"
+    "nyc": ">=13.3.0",
+    "oclif": ">=1.2.5"
   },
   "engines": {
     "node": ">=14.1.0"
